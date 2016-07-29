@@ -1,0 +1,58 @@
+Git Training
+------------
+
+git init
+//creates repo locally
+
+git status
+//shows stages status
+
+git add <filename>
+//adds file to stage
+
+git commit -m "<message>"
+//commits changes in the stage
+
+git add --all
+//adds everything to stage
+
+git log
+//shows the log
+
+git diff
+//shows difference between files
+
+//the HEAD is the most recent commit on the current branch
+
+git reset --soft HEAD^
+//reverts the HEAD to how it was 1(^) commit ago but doesn't replace files
+
+git remote add origin <url.git>
+//creates relationship between current and remote repository
+
+git push -u origin <branch>
+//pushes branch to remote
+
+git pull
+//pulls latest changes
+
+git clone <url>
+//clones remote repo to local
+
+git branch <name>
+//creates a branch
+
+git checkout <branch>
+//selects a branch
+
+git merge <branch>
+//merges another branch to currently selected branch
+
+git branch -d <name>
+//deletes a branch
+
+git branch -r
+//shows remote branches
+
+git remote prune origin
+//removes stale branches from remote
